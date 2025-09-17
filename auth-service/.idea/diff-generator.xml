@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DiffGenerationConfig">
+    <option name="snapshotDb" value="false" />
+    <option name="snapshotModelValue" value="UberProject-AuthService.main:UberProject-AuthService.main" />
+    <option name="sourceModelValue" value="UberProject-AuthService.main:UberProject-AuthService.main" />
+    <option name="targetDbValue" value="2cf8ef28-13d8-43da-ad5e-d4cfbc05be95" />
+  </component>
+</project>

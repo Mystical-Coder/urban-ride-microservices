@@ -1,0 +1,28 @@
+server:
+  port: 7475
+
+spring:
+  application:
+    name: auth-service # This name is used to register with Eureka
+  datasource:
+    url: jdbc:mysql://localhost:3306/Uber_Db_Local
+    username: root
+    password: root
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: validate
+
+logging:
+  level:
+    org.springframework.data: DEBUG
+
+jwt:
+  expiry: 3600
+  secret: vishivvishivvishivvishivvishivvishivvishivvishivvishivvishivvishivvishivvishivvishivvishivvishivvishivvishivvishivvishivvishivvishivvishivvishivvishivvishivvishivvishivvishivvishivvishiv
+
+# Add this section to register with Eureka
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
